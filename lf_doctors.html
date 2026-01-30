@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Life Care Hospital - Doctors</title>
+    <!-- Google Font for Header -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Body with background image */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            background-image: url('hospital.jpg'); /* hospital.jpg in same folder */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #8FC9FF;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+            margin: 0;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            display: inline-block;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #6EB0FF;
+            color: black;
+            border-radius: 5px;
+        }
+
+        /* Container for main content */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #8FC9FF;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #8FC9FF;
+            color: black;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Back button */
+        .back-home {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8FC9FF;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-home:hover {
+            background-color: #6EB0FF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Life Care Hospital</h1>
+</header>
+
+<nav>
+    <a href="lifecarehospitals.html">Home</a>
+    <a href="lfhospitals_patreg.html">Patient Registration</a>
+    <a href="lf_doctors.html">Doctors</a>
+    <a href="#">Appointments</a>
+    <a href="#">Billing</a>
+</nav>
+
+<div class="container">
+    <h2>Our Doctors</h2>
+    <p>Meet our professional and experienced medical staff.</p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Specialization</th>
+            <th>Experience (Years)</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>Dr. Samantha Perera</td>
+            <td>Cardiologist</td>
+            <td>12</td>
+            <td>077-1234567</td>
+        </tr>
+        <tr>
+            <td>Dr. Nimal Silva</td>
+            <td>Neurologist</td>
+            <td>15</td>
+            <td>071-9876543</td>
+        </tr>
+        <tr>
+            <td>Dr. Priya Fernando</td>
+            <td>General Surgeon</td>
+            <td>10</td>
+            <td>072-7654321</td>
+        </tr>
+        <tr>
+            <td>Dr. Kasun Jayasinghe</td>
+            <td>Pediatrician</td>
+            <td>8</td>
+            <td>075-2345678</td>
+        </tr>
+    </table>
+
+    <a class="back-home" href="lifecarehospitals.html">← Back to Home</a>
+</div>
+
+</body>
+</html>
